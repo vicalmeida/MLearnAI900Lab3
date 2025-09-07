@@ -45,3 +45,61 @@ Reproduza o áudio. O áudio será transcrito simultaneamente com a reprodução
 ![](https://github.com/vicalmeida/MLearnAI900Lab3/blob/main/images/img6.png) 
 
 # Language Studio
+
+Análise semântica de Texto, com funcionalidades como reconhecimento de entidades, extração de frases-chave, sumarização e análise de sentimentos.
+
+
+## Passo 1 - Criar um recurso
+
+Aceda ao [portal Azure](https://portal.azure.com) e faça login com as suas credênciais.
+
+Selecione a o menu **Create a resource** e procure por **Language Services**.
+
+![](https://github.com/vicalmeida/MLearnAI900Lab3/blob/main/images/img7.png) 
+
+Selecione os recursos adicionais.
+
+![](https://github.com/vicalmeida/MLearnAI900Lab3/blob/main/images/img8.png) 
+
+É necessário preencher a seguinte informação:
+
+	. Subscription
+	. Resource group
+	. Region 
+	. Name 
+	. Pricing tier: Standard S0
+
+![](https://github.com/vicalmeida/MLearnAI900Lab3/blob/main/images/img9.png) 
+
+
+Selecione **Criar** para confirmar. Aguarde até que conclua a criação.
+
+# Passo 2 - Iniciar o Language Studio
+
+Aceda ao portal [Language Studio](https://language.cognitive.azure.com)e selecione um novo resource.
+
+![](https://github.com/vicalmeida/MLearnAI900Lab3/blob/main/images/img10.png) 
+
+A seguir deverá selecionar a opção **Classify text** e selecionar o módulo **Analyze sentiment and mine opinions**
+
+![](https://github.com/vicalmeida/MLearnAI900Lab3/blob/main/images/img12.png) 
+
+Deverá selecionar o idioma do texto e o resource.
+
+![](https://github.com/vicalmeida/MLearnAI900Lab3/blob/main/images/img13.png) 
+
+Inseria o [texto](https://github.com/vicalmeida/MLearnAI900Lab3/blob/main/images/Texto.txt) a analisar.
+
+![](https://github.com/vicalmeida/MLearnAI900Lab3/blob/main/images/img14.png) 
+
+Marque a opção **I acknowledge that running this demo will incur usage and may incur costs to my Azure resource.** e clique no **Run** para iniciar a análise.
+
+![](https://github.com/vicalmeida/MLearnAI900Lab3/blob/main/images/img15.png) 
+
+Depois de analisado o texto serão gerados os seguintes dados: 
+
+![](https://github.com/vicalmeida/MLearnAI900Lab3/blob/main/images/img16.png) 
+
+![](https://github.com/vicalmeida/MLearnAI900Lab3/blob/main/images/img17.png) 
+
+![](https://github.com/vicalmeida/MLearnAI900Lab3/blob/main/images/img18.png) 
